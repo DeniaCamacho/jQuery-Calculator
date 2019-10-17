@@ -1,0 +1,26 @@
+#calc {
+}
+#nums {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-areas: "c result result result";
+}
+#result {
+  grid-area: result;
+  background-color: rgb(120, 176, 97);
+  font-size: 60px;
+  color: white;
+  text-align: right;
+}
+button {
+  font-size: 28px;
+  color: white;
+  background-color: rgb(120, 176, 97);
+  outline: none;
+}
+.op {
+  background-color: rgb(145, 191, 127);
+  color: black;
+}
